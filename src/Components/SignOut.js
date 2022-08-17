@@ -5,9 +5,9 @@ import { googleSignIn } from '../firebse-config'
 
 function SignOut() {
   return (
-    <div>
+    <div className='m-4'>
         {/* <Google/> */}
-        <button  onClick={googleSignIn} type="button" className="login-with-google-btn" >
+        <button  onClick={googleSignIn} type="button" className="login-with-google-btn mb-4 ml-72" >
   Sign in with Google
 </button>
         {/* <button onClick={()=>{auth.signOut() 

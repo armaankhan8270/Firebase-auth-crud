@@ -17,10 +17,9 @@ function Chat(props) {
  
   return (
     <div>
-{/* <Google/> */}
 <SignOut/>
 
-      <h1>chat</h1>
+      {/* <h1>chat</h1> */}
      
      
    
